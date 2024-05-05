@@ -1,44 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lab 4</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-    <div class="filter">
+      <div class="filter">
         <form>
-            <h3>Filter</h3>
-            <h4>Sort By:</h4>
-            <label>
-                <input type="radio" name="sortBy" value="viewed"> Most Viewed
-            </label>
-            <br>
-            <label>
-                <input type="radio" name="sortBy" value="shared"> Most Shared
-            </label>
-            <br>
-            <label>
-                <input type="radio" name="sortBy" value="emailed"> Most Emailed
-            </label>
-            <h4>Time Frame:</h4>
-            <label>
-                <input type="radio" name="timeFrame" value="1"> Day
-            </label>
-            <br>
-            <label>
-                <input type="radio" name="timeFrame" value="7"> Week
-            </label>
-            <br>
-            <label>
-                <input type="radio" name="timeFrame" value="30"> Month
-            </label>
+          <h3>Filter</h3>
+          <h4>Sort By:</h4>
+          <label>
+            <input type="radio" name="sortBy" value="viewed" checked /> Most
+            Viewed
+          </label>
+          <br />
+          <label>
+            <input type="radio" name="sortBy" value="shared" /> Most Shared
+          </label>
+          <br />
+          <label>
+            <input type="radio" name="sortBy" value="emailed" /> Most Emailed
+          </label>
+          <h4>Time Frame:</h4>
+          <label>
+            <input type="radio" name="timeFrame" value="1" checked /> Day
+          </label>
+          <br />
+          <label>
+            <input type="radio" name="timeFrame" value="7" /> Week
+          </label>
+          <br />
+          <label>
+            <input type="radio" name="timeFrame" value="30" /> Month
+          </label>
         </form>
-    </div>
-    <div class="posts"></div>
+      </div>
+      <div class="posts"></div>
     </div>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
